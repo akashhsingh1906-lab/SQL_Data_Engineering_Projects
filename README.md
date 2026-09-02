@@ -48,7 +48,7 @@ ATTACH 'md:_share/data_jobs/87603155-cdc7-4c80-85ad-3a6b0d760d93'
 ## Special Thanks 🙌
 
 <div style="width:25%; margin:auto;">
-  <img src="Resources/images/0_SerpAPI.png" alt="SerpApi Logo" style="width:100%;">
+  <img src="images/0_SerpAPI.png" alt="SerpApi Logo" style="width:100%;">
 </div>
 
 A special thanks to [SerpApi](https://serpapi.com/), whose generous credits made it possible to gather the job postings data used in this course.
