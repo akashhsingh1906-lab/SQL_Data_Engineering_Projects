@@ -4,6 +4,9 @@
 
 - [**Project #1:** Exploratory Data Analysis](/Users/akashrajpoot/Documents/sql_data_engineering_projects/1_EDA) — Job market analytics with SQL
 
+    ** A SQL project analyzing the data engineer job market using real-world job posting data. it demonstrates my ability to write production-quality analytical SQL, design efficient queries, and turn business questions into data-driven insights.
+
+
 ## How to Run SQL
 
 ### Option 1: Cloud (Easiest to get started) — MotherDuck
