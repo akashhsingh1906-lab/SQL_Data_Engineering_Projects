@@ -161,4 +161,5 @@ Company hiring trends by role, location, and month.
 - **Data Validation:** Verification queries at each pipeline step to ensure data integrity  
 - **Type Safety:** Proper data type definitions (`VARCHAR`, `INTEGER`, `DOUBLE`, `BOOLEAN`, `TIMESTAMP`)  
 - **Schema Organization:** Separate schemas (`flat_mart`, `skills_mart`, `priority_mart`, `company_mart`) for logical separation  
-- **Error Handling:** Structured script execution with clear error messages and progress reporting  
+- **Error Handling:** Structured script execution with clear error messages and progress reporting.
+  ** todo fill this in
