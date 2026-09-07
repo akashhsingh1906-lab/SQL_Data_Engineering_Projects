@@ -69,7 +69,7 @@ The pipeline transforms job posting CSVs from Google Cloud Storage into a normal
 
 The data warehouse implements a star schema with `company_dim`, `skills_dim`, `job_postings_fact`, and `skills_job_dim` tables.
 
-![Data Warehouse Schema](images/1_2_Data_Warehouse.png)
+![Data Warehouse Schema](/images/1_2_Data_Warehouse.png)
 
 - **SQL Files:**
   - [`01_create_tables_dw.sql`](./01_create_tables_dw.sql) – Defines star schema with 4 core tables
@@ -83,7 +83,7 @@ Denormalized table with all dimensions for ad-hoc queries.
 
 ![Flat Mart Schema]images/1_2_Flat_Mart.png)
 
-- **SQL File:** [`03_create_flat_mart.sql`](./03_create_flat_mart.sql) – Builds denormalized table with all dimensions joined
+- **SQL File:** [`03_create_flat_mart.sql`](/images/./03_create_flat_mart.sql) – Builds denormalized table with all dimensions joined
 - **Purpose:** Denormalized table for quick ad-hoc queries
 - **Grain:** One row per job posting with all dimensions joined
 
@@ -91,7 +91,7 @@ Denormalized table with all dimensions for ad-hoc queries.
 
 Time-series skill demand analysis with additive measures.
 
-![Skills Mart Schema](images/1_2_Skills_Mart.png)
+![Skills Mart Schema](/images/1_2_Skills_Mart.png)
 
 - **SQL File:** [`04_create_skills_mart.sql`](./04_create_skills_mart.sql) – Builds time-series skill demand mart
 - **Purpose:** Time-series analysis of skill demand over time with additive measures
@@ -102,7 +102,7 @@ Time-series skill demand analysis with additive measures.
 
 Priority role tracking with incremental updates using MERGE operations.
 
-![Priority Mart Schema](../../Resources/images/1_2_Priority_Mart.png)
+![Priority Mart Schema](/images/1_2_Priority_Mart.png)
 
 - **SQL Files:**
   - [`05_create_priority_mart.sql`](./05_create_priority_mart.sql) – Initial build of priority roles and jobs snapshot
@@ -115,7 +115,7 @@ Priority role tracking with incremental updates using MERGE operations.
 
 Company hiring trends by role, location, and month.
 
-![Company Mart Schema](images/1_2_Company_Mart.png)
+![Company Mart Schema](/images/1_2_Company_Mart.png)
 
 - **SQL File:** [`07_create_company_mart.sql`](./07_create_company_mart.sql) – Builds company hiring trends mart (optional)
 - **Purpose:** Company hiring trends analysis by role, location, and month
